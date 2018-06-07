@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@font-face{
+	font-family: Product Sans;
+    src: url(font.ttf);
+}
+
+html, body{
+	outline: 0;
+	padding: 0px;
+	margin: 0px;
+	background: inherit;
+	font-family: Product Sans;
+	color: #ecf0f1;
+}
+
+a, a:hover{
+	text-decoration: none !important;
+	color: inherit;
+}
+
+header{
+	height: 100vh;
+	background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(https://i.pinimg.com/originals/bf/e2/df/bfe2dfaed8854cbf7c35eea5494c2865.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+#logo{
+	width: 500px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin: 0px;
+}
+
+.logoWo{
+	margin-top: 70px;
+}
+#Uprizing{
+	margin-top: 250px;
+	font-size: 80px;
+	font-weight: 600;
+}
+
+.gray{
+	font-weight: 500;
+	color: #95a5a6;
+}
+
+.ButtonNormal{
+	padding: 12px 22px 12px 22px;
+	background-color: #51a8c0;
+	border:none;
+	margin: 3px 15px 3px 15px;
+}
+
+.ButtonNormal:hover{
+	background-color: #5ABBD6;
+border:none;
+}
+
+.ButtonNormal p{
+	padding: 0px;
+	margin: 0px;
+	font-size: 23px;
+	color: #060815;
+	font-weight: 600;
+}
+
+#made{
+	font-size: 19px;
+}
+
+@media(max-width: 720px){
+	header{
+		height: auto
+	}
+	#Uprizing{
+		margin-top: 0px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	header{
+		height: auto;
+	}
+	#Uprizing{
+		margin-top: 0px;
+	}
+}
